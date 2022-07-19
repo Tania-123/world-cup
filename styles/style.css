@@ -1,0 +1,61 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.top-part{
+    position: absolute;
+    width:1025px; 
+      height: 496px;
+    left: 140px;
+    top: 50px;
+
+    
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+}
+.greatest-show2{
+    width: 50%;
+    padding-left: 60px; 
+    padding-top: 60px;
+}
+h1{
+    font-weight: 600;
+font-size: 50px;
+line-height: 8px;
+
+color: #FFFFFF;
+}
+#font{
+    font-size: 20px;
+    color: white;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg,red, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+   
+    
+}
+.icon{
+    display: flex;
+}
+.awesome{
+    color: white;
+    padding-left: 20px;
+}
+.player img{
+    width:140%;
+    margin-top: 20px;
+}
+.fa-solid{
+    padding-left: 10px;
+}
+
+
+
+    
+
+
