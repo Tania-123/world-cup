@@ -39,19 +39,83 @@ color: #FFFFFF;
    
     
 }
-.icon{
-    display: flex;
-}
-.awesome{
-    color: white;
-    padding-left: 20px;
-}
+
+
 .player img{
     width:140%;
     margin-top: 20px;
 }
 .fa-solid{
     padding-left: 10px;
+}
+.match{
+    position: absolute;
+width: 230px;
+height: 230px;
+left: 140px;
+top:630px;
+background-color: burlywood;
+border-radius: 10px;
+
+}
+
+.anchor-button1{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 40px 5px;
+    margin-left: 17px;
+    top: 30px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+   
+    
+}
+.anchor-button2{
+    text-decoration: none;
+    background-color: white;
+    padding:10px 40px 5px;
+    text-align: center;
+    
+    margin-left: 18px;
+    top:90px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+   
+}
+.anchor-button3{
+    text-decoration: none;
+    background-color: tomato;
+    padding:10px 40px 5px;
+    text-align: center;
+    
+    margin-left: 18px;
+    top:151px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+   
+}
+.blog{
+    margin-top: 630px;
+    
+}
+.transfer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+   
+    
 }
 
 
