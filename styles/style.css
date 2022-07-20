@@ -2,7 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .top-part{
-    position: absolute;
+    position: relative;
     width:1025px; 
       height: 496px;
     left: 140px;
@@ -41,81 +41,85 @@ color: #FFFFFF;
 }
 
 
-.player img{
-    width:140%;
-    margin-top: 20px;
-}
+
 .fa-solid{
     padding-left: 10px;
 }
 .match{
-    position: absolute;
-width: 230px;
+    width: 252px;
 height: 230px;
-left: 140px;
-top:630px;
+
+
 background-color: burlywood;
 border-radius: 10px;
+margin-left: 130px;
+margin-right: 20px;
 
 }
 
+
+.blog{
+    margin-top: 130px;
+    display: flex;
+    width: 100%
+    
+}
 .anchor-button1{
     text-decoration: none;
     background-color: white;
-    padding: 10px 40px 5px;
-    margin-left: 17px;
-    top: 30px;
+    padding: 10px 40px;
     border-radius: 5px;
     color: black;
     font-weight: 700;
+    margin-left: 20px;
     position: absolute;
+    margin-top: 30px;
     width: 120px;
-    height: 30px;
-   
+    height: 20px;
     
 }
 .anchor-button2{
     text-decoration: none;
     background-color: white;
-    padding:10px 40px 5px;
-    text-align: center;
-    
-    margin-left: 18px;
-    top:90px;
+    padding: 10px 40px;
+    padding-left: 60px;
     border-radius: 5px;
     color: black;
     font-weight: 700;
+    margin-left: 20px;
     position: absolute;
-    width: 120px;
-    height: 30px;
-   
+    margin-top: 90px;
+    width: 100px;
+    
 }
 .anchor-button3{
     text-decoration: none;
     background-color: tomato;
-    padding:10px 40px 5px;
-    text-align: center;
-    
-    margin-left: 18px;
-    top:151px;
+    padding: 10px 40px;
+    padding-left: 80px;
     border-radius: 5px;
     color: black;
     font-weight: 700;
+    margin-left: 20px;
     position: absolute;
-    width: 120px;
-    height: 30px;
-   
+    margin-top: 150px;
+    width: 80px;
 }
-.blog{
-    margin-top: 630px;
-    
-}
-.transfer{
-    display: grid;
+.player-card{
+    display:grid;
     grid-template-columns: repeat(3,1fr);
+   
+    width:10px;
     
    
-    
+    padding-top: 0px;
+    height: 30px;
+    gap: 20px;
+}
+
+.player-card img{
+    width:220px;
+    height: 150pxpx;
 }
 
 
